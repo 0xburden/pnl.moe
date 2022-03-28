@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
+import GlobalStyles from './components/GlobalStyle'
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-lg font-bold text-center">Tailwinded</h1>
-    </div>
-  );
+	return (
+		<>
+			<GlobalStyles />
+			<div className="App">
+				<h1 className="text-lg font-bold">Tailwinded</h1>
+			</div>
+		</>
+	)
 }
 
-export default App;
+export default App
